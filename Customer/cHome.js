@@ -21,7 +21,7 @@ function renderCards(cards) {
                     <p>${card.Description}</p>
             
                     <div class="d-flex mb-2">
-                        <a href="#" class="btn py-1 w-100 btn-primary">Profile</a>
+                        <a href="cEventProfile.html" class="btn py-1 w-100 custom-btn">Profile</a>
                     </div>
                 </div>
             </div>
@@ -61,6 +61,3 @@ filterEvent.addEventListener('click', applyFilters);
 // Initial render
 
 renderCards(fakeData);
-
-
-
